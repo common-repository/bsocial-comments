@@ -1,0 +1,17 @@
+span.bsocial-featured-comment {
+	font-weight: bold;
+}
+
+div#bsuite-fcomment.postbox .featured-comment:not(:last-child) {
+	border-bottom: 1px solid #eeeeee;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.row-actions .feature-comment.unfeatured-comment {
+	color: #006505;
+}
+
+.row-actions .feature-comment.featured-comment {
+	color: #d98500;
+}

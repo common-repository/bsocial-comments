@@ -1,0 +1,49 @@
+table.comments .column-faves,
+table.comments .column-flags {
+	width: 5.5em;
+}
+
+table.comments .column-faves .faves,
+table.comments .column-faves .faves a:link,
+table.comments .column-faves .faves a:visited,
+table.comments .column-faves .faves a:hover {
+	color: #006505;
+}
+
+table.comments .column-flags .flags,
+table.comments .column-flags .flags a:link,
+table.comments .column-flags .flags a:visited,
+table.comments .column-flags .flags a:hover {
+	color: #a00;
+}
+
+
+table.comments .column-flags.has-flags {
+	background-color: #f2c4c4;
+}
+
+#bsocial-comments-feedback-faves.postbox,
+#bsocial-comments-feedback-flags.postbox {
+	border: none;
+}
+
+#bsocial-comments-feedback-faves.postbox .inside,
+#bsocial-comments-feedback-flags.postbox .inside {
+	margin: 0;
+	padding: 0;
+}
+
+#bsocial-comments-feedback-faves.postbox table,
+#bsocial-comments-feedback-flags.postbox table {
+	border: none;
+}
+
+#bsocial-comments-feedback-faves.postbox table tr td,
+#bsocial-comments-feedback-flags.postbox table tr td {
+	border-bottom: 1px solid #e6e6e6;
+}
+
+#bsocial-comments-feedback-faves.postbox table tr td.column-author,
+#bsocial-comments-feedback-flags.postbox table tr td.column-author {
+	width: 30%;
+}
